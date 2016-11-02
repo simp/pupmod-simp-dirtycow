@@ -1,0 +1,40 @@
+{
+  "name": "simp-dirtycow",
+  "version": "1.0.0",
+  "author": "SIMP",
+  "summary": "SIMP module checking Dirty Cow Vulnerability",
+  "license": "Apache-2.0",
+  "source": "https://github.com/simp/pupmod-simp-dirtycow",
+  "project_page": "https://github.com/simp/pupmod-simp-dirtycow",
+  "issues_url": "https://simp-project.atlassian.net",
+  "tags": [
+    "simp",
+    "dirtycow"
+  ],
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.9.0 < 5.0.0"
+    },
+    {
+      "name": "simp/simplib",
+      "version_requirement": ">= 2.0.0 < 3.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
+  ]
+}
