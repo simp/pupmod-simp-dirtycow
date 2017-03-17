@@ -1,3 +1,6 @@
+* Fri Mar 17 2017 Ralph Wright <rwright@onyxpoint.com> - 1.0.2-0
+- Updated Gemfiles, travis yaml
+
 * Mon Oct 31 2016 Ralph Wright <rwright@onyxpoint.com> - 1.0.0-0
 - Initial Dirty Cow Module
 - Notify if the running kernel is vulnerable to Dirty Cow
