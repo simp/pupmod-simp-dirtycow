@@ -1,11 +1,11 @@
 {
   "name": "simp-dirtycow",
   "version": "1.0.2",
-  "author": "SIMP",
+  "author": "SIMP Team",
   "summary": "SIMP module checking Dirty Cow Vulnerability",
   "license": "Apache-2.0",
-  "source": "https://github.com/simp/pupmod-simp-dirtycow",
-  "project_page": "https://github.com/simp/pupmod-simp-dirtycow",
+  "source": "https://github.com/simp/pupmod-simp-dirtycow.git",
+  "project_page": "https://github.com/simp/pupmod-simp-dirtycow.git",
   "issues_url": "https://simp-project.atlassian.net",
   "tags": [
     "simp",
@@ -31,6 +31,12 @@
         "6",
         "7"
       ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 5.0.0"
     }
   ]
 }
