@@ -1,10 +1,11 @@
-.*.sw[pnrqost]
+.*.sw?
 .yardoc
 dist
 /pkg
-/spec/fixtures/manifests/site.pp
-/spec/fixtures/modules
-/spec/fixtures/hieradata/hiera.yaml
+/spec/fixtures
+/spec/rp_env
+!/spec/hieradata/default.yaml
+!/spec/fixtures/site.pp
 /.rspec_system
 /.vagrant
 /.bundle
@@ -12,4 +13,4 @@ dist
 /vendor
 /junit
 /log
-coverage
+/doc
