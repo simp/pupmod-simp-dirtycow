@@ -1,3 +1,6 @@
+* Thu Jul 06 2017 Liz Nemsick <lnemsick.simp@gmail.com> - 1.0.3-0
+- Confine puppet version in metadata.json
+
 * Fri Mar 17 2017 Ralph Wright <rwright@onyxpoint.com> - 1.0.2-0
 - Updated Gemfiles, travis yaml
 
