@@ -13,7 +13,7 @@ describe 'dirtycow' do
 
           it { is_expected.to create_class('dirtycow') }
           it { is_expected.to compile.with_all_deps }
-          if ['RedHat','CentOS'].include?(facts[:operatingsystem])
+          if ['RedHat','CentOS','OracleLinux'].include?(facts[:operatingsystem])
             if facts[:operatingsystemmajrelease].to_s <= '6'
               it { is_expected.to contain_notify('EL6_dirtycow') }
               it { is_expected.to_not contain_notify('EL7_dirtycow') }
@@ -26,7 +26,7 @@ describe 'dirtycow' do
 
         context 'with a non-vulnerable kernel' do
 
-          if ['RedHat','CentOS'].include?(facts[:operatingsystem])
+          if ['RedHat','CentOS','OracleLinux'].include?(facts[:operatingsystem])
             if facts[:operatingsystemmajrelease].to_s <= '6'
               let(:facts){
                 facts.merge({

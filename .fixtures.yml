@@ -1,4 +1,7 @@
 ---
 fixtures:
+  repositories:
+    stdlib:   "https://github.com/puppetlabs/puppetlabs-stdlib.git"
+    simplib:  "https://github.com/simp/pupmod-simp-simplib.git"
   symlinks:
     dirtycow: "#{source_dir}"
