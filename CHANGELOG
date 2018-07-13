@@ -1,3 +1,6 @@
+* Tue Mar 20 2018 Trevor Vaughan <tvaughan@onyxpoint.com> - 1.0.4-0
+- Added support for OEL and Puppet 5
+
 * Thu Jul 06 2017 Liz Nemsick <lnemsick.simp@gmail.com> - 1.0.3-0
 - Confine puppet version in metadata.json
 
