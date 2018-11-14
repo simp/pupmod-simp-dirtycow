@@ -1,6 +1,6 @@
 {
   "name": "simp-dirtycow",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "SIMP Team",
   "summary": "SIMP module checking Dirty Cow Vulnerability",
   "license": "Apache-2.0",
