@@ -1,3 +1,6 @@
+* Fri Aug 02 2019 Robert Vincent <pillarsdotnet@gmail.com> - 1.0.6-0
+- Support puppetlabs/stdlib 6.x and puppet 6.x.
+
 * Wed Nov 14 2018 Trevor Vaughan <tvaughan@onyxpoint.com> - 1.0.5-0
 - Update deploy keys
 
